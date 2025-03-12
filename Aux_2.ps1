@@ -12,9 +12,9 @@ if (Test-Path -Path "$currentLocation\Script") {
         
         
         if (Test-Path -Path ".\modelo.py") {
-            python Procesar.py
+            python modelo.py
         } else {
-            Write-Host "Error: No se encuentra el archivo Procesar.py en la carpeta Script"
+            Write-Host "Error: No se encuentra el archivo modelo.py en la carpeta Script"
         }
     } else {
         Write-Host "Error: No se encuentra el entorno virtual en la ruta Script\venv"
